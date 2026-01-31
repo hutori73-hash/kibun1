@@ -54,6 +54,8 @@ if (!process.env.DISCORD_TOKEN) {
     process.exit(1);
 }
 
+console.log("TOKEN length:", process.env.DISCORD_TOKEN?.length);
+
 console.log('🔄 Discord に接続中...');
 client.login(process.env.DISCORD_TOKEN)
     .then(() => {

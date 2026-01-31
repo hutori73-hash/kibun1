@@ -2,9 +2,13 @@
   "name": "kibun1",
   "version": "1.0.0",
   "description": "a",
-  "main": "index.js",
+  "type": "module",
+  "main": "main.mjs",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node main.mjs"
   },
   "keywords": [],
   "author": "",
